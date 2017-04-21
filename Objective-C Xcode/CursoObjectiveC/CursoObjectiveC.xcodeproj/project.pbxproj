@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5D55BB1D7DDA3E009D6ABE /* Bloques.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D55BA1D7DDA3E009D6ABE /* Bloques.m */; };
+		FC81E70B1D7A3E620019DBBF /* Fraction5+PruebaCategoria2.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81E70A1D7A3E620019DBBF /* Fraction5+PruebaCategoria2.m */; };
+		FC89C9B11D80E6E300C5B59F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89C9B01D80E6E300C5B59F /* User.m */; };
+		FC89C9B41D80E91700C5B59F /* Mascota.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89C9B31D80E91700C5B59F /* Mascota.swift */; };
+		FC901CE11D7516E7006F779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CE01D7516E7006F779D /* main.m */; };
+		FC901CEA1D751B37006F779D /* Fraction5.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CE91D751B37006F779D /* Fraction5.m */; };
+		FC901CEE1D751F5C006F779D /* calculadora12.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CED1D751F5C006F779D /* calculadora12.m */; };
+		FC901CF21D75CD73006F779D /* Fraction16.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CF11D75CD73006F779D /* Fraction16.m */; };
+		FC901CF61D75CEFA006F779D /* Fraction17.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CF51D75CEFA006F779D /* Fraction17.m */; };
+		FC901CF91D75D6C1006F779D /* Mensaje.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CF81D75D6C1006F779D /* Mensaje.m */; };
+		FC901CFE1D762FF1006F779D /* Saludador.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901CFD1D762FF1006F779D /* Saludador.m */; };
+		FC901D021D7876D2006F779D /* operaciones.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D011D7876D2006F779D /* operaciones.m */; };
+		FC901D061D78E482006F779D /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D051D78E482006F779D /* Persona.m */; };
+		FC901D0B1D78E720006F779D /* Empleado.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D0A1D78E720006F779D /* Empleado.m */; };
+		FC901D131D79C0AF006F779D /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D121D79C0AF006F779D /* Alumno.m */; };
+		FC901D181D79DA75006F779D /* Gerente.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D171D79DA75006F779D /* Gerente.m */; };
+		FC901D1C1D7A1E20006F779D /* NSString+PruebaCategorias.m in Sources */ = {isa = PBXBuildFile; fileRef = FC901D1B1D7A1E20006F779D /* NSString+PruebaCategorias.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC901CDB1D7516E7006F779D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC5D55B91D7DDA3E009D6ABE /* Bloques.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bloques.h; sourceTree = "<group>"; };
+		FC5D55BA1D7DDA3E009D6ABE /* Bloques.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bloques.m; sourceTree = "<group>"; };
+		FC81E7091D7A3E620019DBBF /* Fraction5+PruebaCategoria2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction5+PruebaCategoria2.h"; sourceTree = "<group>"; };
+		FC81E70A1D7A3E620019DBBF /* Fraction5+PruebaCategoria2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction5+PruebaCategoria2.m"; sourceTree = "<group>"; };
+		FC89C9AF1D80E6E300C5B59F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FC89C9B01D80E6E300C5B59F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FC89C9B21D80E91600C5B59F /* CursoObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CursoObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC89C9B31D80E91700C5B59F /* Mascota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mascota.swift; sourceTree = "<group>"; };
+		FC901CDD1D7516E7006F779D /* CursoObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CursoObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC901CE01D7516E7006F779D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC901CE81D751B1B006F779D /* Fraction5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction5.h; sourceTree = "<group>"; };
+		FC901CE91D751B37006F779D /* Fraction5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction5.m; sourceTree = "<group>"; };
+		FC901CEC1D751F46006F779D /* calculadora12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculadora12.h; sourceTree = "<group>"; };
+		FC901CED1D751F5C006F779D /* calculadora12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculadora12.m; sourceTree = "<group>"; };
+		FC901CF01D75CD65006F779D /* Fraction16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction16.h; sourceTree = "<group>"; };
+		FC901CF11D75CD73006F779D /* Fraction16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction16.m; sourceTree = "<group>"; };
+		FC901CF41D75CEEC006F779D /* Fraction17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction17.h; sourceTree = "<group>"; };
+		FC901CF51D75CEFA006F779D /* Fraction17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction17.m; sourceTree = "<group>"; };
+		FC901CF81D75D6C1006F779D /* Mensaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mensaje.m; sourceTree = "<group>"; };
+		FC901CFA1D75D7ED006F779D /* Mensaje.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mensaje.h; sourceTree = "<group>"; };
+		FC901CFC1D762FE3006F779D /* Saludador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saludador.h; sourceTree = "<group>"; };
+		FC901CFD1D762FF1006F779D /* Saludador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Saludador.m; sourceTree = "<group>"; };
+		FC901D001D7876D2006F779D /* operaciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operaciones.h; sourceTree = "<group>"; };
+		FC901D011D7876D2006F779D /* operaciones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = operaciones.m; sourceTree = "<group>"; };
+		FC901D041D78E482006F779D /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		FC901D051D78E482006F779D /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
+		FC901D091D78E720006F779D /* Empleado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empleado.h; sourceTree = "<group>"; };
+		FC901D0A1D78E720006F779D /* Empleado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empleado.m; sourceTree = "<group>"; };
+		FC901D0D1D79B672006F779D /* OperacionesBasicas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperacionesBasicas.h; sourceTree = "<group>"; };
+		FC901D111D79C0AF006F779D /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
+		FC901D121D79C0AF006F779D /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
+		FC901D161D79DA75006F779D /* Gerente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gerente.h; sourceTree = "<group>"; };
+		FC901D171D79DA75006F779D /* Gerente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gerente.m; sourceTree = "<group>"; };
+		FC901D1A1D7A1E20006F779D /* NSString+PruebaCategorias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PruebaCategorias.h"; sourceTree = "<group>"; };
+		FC901D1B1D7A1E20006F779D /* NSString+PruebaCategorias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PruebaCategorias.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC901CDA1D7516E7006F779D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3A4F6E1D94977500037662 /* Persona (Clase principal) */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D041D78E482006F779D /* Persona.h */,
+				FC901D051D78E482006F779D /* Persona.m */,
+			);
+			name = "Persona (Clase principal)";
+			sourceTree = "<group>";
+		};
+		FC81E70C1D7B0E6A0019DBBF /* Bloques */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D55B91D7DDA3E009D6ABE /* Bloques.h */,
+				FC5D55BA1D7DDA3E009D6ABE /* Bloques.m */,
+			);
+			name = Bloques;
+			sourceTree = "<group>";
+		};
+		FC89C9AE1D80E6C300C5B59F /* MezclandoCodigo */ = {
+			isa = PBXGroup;
+			children = (
+				FC89C9AF1D80E6E300C5B59F /* User.h */,
+				FC89C9B01D80E6E300C5B59F /* User.m */,
+				FC89C9B31D80E91700C5B59F /* Mascota.swift */,
+				FC89C9B21D80E91600C5B59F /* CursoObjectiveC-Bridging-Header.h */,
+			);
+			name = MezclandoCodigo;
+			sourceTree = "<group>";
+		};
+		FC901CD41D7516E7006F779D = {
+			isa = PBXGroup;
+			children = (
+				FC901D0C1D79B4C4006F779D /* Protocolos */,
+				FC89C9AE1D80E6C300C5B59F /* MezclandoCodigo */,
+				FC81E70C1D7B0E6A0019DBBF /* Bloques */,
+				FC901D191D79ECDE006F779D /* Categorias */,
+				FC901D031D78E46D006F779D /* Herencia */,
+				FC901CFF1D7876B9006F779D /* Operaciones */,
+				FC901CFB1D762FCA006F779D /* Ejercicio19 */,
+				FC901CF71D75D64E006F779D /* Ejercicio18 */,
+				FC901CF31D75CE8F006F779D /* Ejercicio17 */,
+				FC901CEF1D75CD22006F779D /* Ejercicio16 */,
+				FC901CEB1D751EAC006F779D /* Ejercicio12 */,
+				FC901CE71D751AB4006F779D /* Ejercicio6 */,
+				FC901CDF1D7516E7006F779D /* CursoObjectiveC */,
+				FC901CDE1D7516E7006F779D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC901CDE1D7516E7006F779D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CDD1D7516E7006F779D /* CursoObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC901CDF1D7516E7006F779D /* CursoObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CE01D7516E7006F779D /* main.m */,
+			);
+			path = CursoObjectiveC;
+			sourceTree = "<group>";
+		};
+		FC901CE71D751AB4006F779D /* Ejercicio6 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CE81D751B1B006F779D /* Fraction5.h */,
+				FC901CE91D751B37006F779D /* Fraction5.m */,
+			);
+			name = Ejercicio6;
+			sourceTree = "<group>";
+		};
+		FC901CEB1D751EAC006F779D /* Ejercicio12 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CEC1D751F46006F779D /* calculadora12.h */,
+				FC901CED1D751F5C006F779D /* calculadora12.m */,
+			);
+			name = Ejercicio12;
+			sourceTree = "<group>";
+		};
+		FC901CEF1D75CD22006F779D /* Ejercicio16 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CF01D75CD65006F779D /* Fraction16.h */,
+				FC901CF11D75CD73006F779D /* Fraction16.m */,
+			);
+			name = Ejercicio16;
+			sourceTree = "<group>";
+		};
+		FC901CF31D75CE8F006F779D /* Ejercicio17 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CF41D75CEEC006F779D /* Fraction17.h */,
+				FC901CF51D75CEFA006F779D /* Fraction17.m */,
+			);
+			name = Ejercicio17;
+			sourceTree = "<group>";
+		};
+		FC901CF71D75D64E006F779D /* Ejercicio18 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CFA1D75D7ED006F779D /* Mensaje.h */,
+				FC901CF81D75D6C1006F779D /* Mensaje.m */,
+			);
+			name = Ejercicio18;
+			sourceTree = "<group>";
+		};
+		FC901CFB1D762FCA006F779D /* Ejercicio19 */ = {
+			isa = PBXGroup;
+			children = (
+				FC901CFC1D762FE3006F779D /* Saludador.h */,
+				FC901CFD1D762FF1006F779D /* Saludador.m */,
+			);
+			name = Ejercicio19;
+			sourceTree = "<group>";
+		};
+		FC901CFF1D7876B9006F779D /* Operaciones */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D001D7876D2006F779D /* operaciones.h */,
+				FC901D011D7876D2006F779D /* operaciones.m */,
+			);
+			name = Operaciones;
+			sourceTree = "<group>";
+		};
+		FC901D031D78E46D006F779D /* Herencia */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A4F6E1D94977500037662 /* Persona (Clase principal) */,
+				FC901D151D79DA56006F779D /* Gerente */,
+				FC901D071D78E6F2006F779D /* Empleado */,
+			);
+			name = Herencia;
+			sourceTree = "<group>";
+		};
+		FC901D071D78E6F2006F779D /* Empleado */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D091D78E720006F779D /* Empleado.h */,
+				FC901D0A1D78E720006F779D /* Empleado.m */,
+			);
+			name = Empleado;
+			sourceTree = "<group>";
+		};
+		FC901D0C1D79B4C4006F779D /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D0D1D79B672006F779D /* OperacionesBasicas.h */,
+				FC901D111D79C0AF006F779D /* Alumno.h */,
+				FC901D121D79C0AF006F779D /* Alumno.m */,
+			);
+			name = Protocolos;
+			sourceTree = "<group>";
+		};
+		FC901D151D79DA56006F779D /* Gerente */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D161D79DA75006F779D /* Gerente.h */,
+				FC901D171D79DA75006F779D /* Gerente.m */,
+			);
+			name = Gerente;
+			sourceTree = "<group>";
+		};
+		FC901D191D79ECDE006F779D /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				FC901D1A1D7A1E20006F779D /* NSString+PruebaCategorias.h */,
+				FC901D1B1D7A1E20006F779D /* NSString+PruebaCategorias.m */,
+				FC81E7091D7A3E620019DBBF /* Fraction5+PruebaCategoria2.h */,
+				FC81E70A1D7A3E620019DBBF /* Fraction5+PruebaCategoria2.m */,
+			);
+			name = Categorias;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC901CDC1D7516E7006F779D /* CursoObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC901CE41D7516E8006F779D /* Build configuration list for PBXNativeTarget "CursoObjectiveC" */;
+			buildPhases = (
+				FC901CD91D7516E7006F779D /* Sources */,
+				FC901CDA1D7516E7006F779D /* Frameworks */,
+				FC901CDB1D7516E7006F779D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursoObjectiveC;
+			productName = CursoObjectiveC;
+			productReference = FC901CDD1D7516E7006F779D /* CursoObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC901CD51D7516E7006F779D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Felipe Hernandez";
+				TargetAttributes = {
+					FC901CDC1D7516E7006F779D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = FC901CD81D7516E7006F779D /* Build configuration list for PBXProject "CursoObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC901CD41D7516E7006F779D;
+			productRefGroup = FC901CDE1D7516E7006F779D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC901CDC1D7516E7006F779D /* CursoObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC901CD91D7516E7006F779D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC89C9B11D80E6E300C5B59F /* User.m in Sources */,
+				FC901D0B1D78E720006F779D /* Empleado.m in Sources */,
+				FC901D021D7876D2006F779D /* operaciones.m in Sources */,
+				FC901D1C1D7A1E20006F779D /* NSString+PruebaCategorias.m in Sources */,
+				FC901D181D79DA75006F779D /* Gerente.m in Sources */,
+				FC89C9B41D80E91700C5B59F /* Mascota.swift in Sources */,
+				FC901CF61D75CEFA006F779D /* Fraction17.m in Sources */,
+				FC901CF21D75CD73006F779D /* Fraction16.m in Sources */,
+				FC901D061D78E482006F779D /* Persona.m in Sources */,
+				FC81E70B1D7A3E620019DBBF /* Fraction5+PruebaCategoria2.m in Sources */,
+				FC901CE11D7516E7006F779D /* main.m in Sources */,
+				FC901CF91D75D6C1006F779D /* Mensaje.m in Sources */,
+				FC901CEE1D751F5C006F779D /* calculadora12.m in Sources */,
+				FC901CFE1D762FF1006F779D /* Saludador.m in Sources */,
+				FC901CEA1D751B37006F779D /* Fraction5.m in Sources */,
+				FC901D131D79C0AF006F779D /* Alumno.m in Sources */,
+				FC5D55BB1D7DDA3E009D6ABE /* Bloques.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC901CE21D7516E8006F779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC901CE31D7516E8006F779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FC901CE51D7516E8006F779D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CursoObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC901CE61D7516E8006F779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CursoObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC901CD81D7516E7006F779D /* Build configuration list for PBXProject "CursoObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC901CE21D7516E8006F779D /* Debug */,
+				FC901CE31D7516E8006F779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC901CE41D7516E8006F779D /* Build configuration list for PBXNativeTarget "CursoObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC901CE51D7516E8006F779D /* Debug */,
+				FC901CE61D7516E8006F779D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC901CD51D7516E7006F779D /* Project object */;
+}
