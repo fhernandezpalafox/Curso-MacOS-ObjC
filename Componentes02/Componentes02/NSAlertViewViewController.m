@@ -55,12 +55,12 @@
 
 - (IBAction)alerta3:(id)sender {
     
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert addButtonWithTitle:@"Continuar"];
+    NSAlert *alert = [[NSAlert alloc] init]; // NSAlert alerta  = new NSAlert();
+    [alert addButtonWithTitle:@"Continuar"];   //alert.addButtonWithTitle("Continuar");
     [alert setMessageText:@"Alerta sencilla"];
     [alert setInformativeText:@"Se ha realizado la aoperacion correctamente"];
     [alert setAlertStyle:NSInformationalAlertStyle];
-    [alert runModal];
+    [alert runModal];   //alert.runModal();
 }
 
 
