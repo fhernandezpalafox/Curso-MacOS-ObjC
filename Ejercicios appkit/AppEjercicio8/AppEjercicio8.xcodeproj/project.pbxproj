@@ -119,6 +119,7 @@
 				TargetAttributes = {
 					FCBB6A7C1DC522E800A68C67 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A9YS5YC86D;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +129,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A9YS5YC86D;
 				INFOPLIST_FILE = AppEjercicio8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.AppEjercicio8;
@@ -282,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A9YS5YC86D;
 				INFOPLIST_FILE = AppEjercicio8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.AppEjercicio8;
@@ -308,6 +312,7 @@
 				FCBB6A931DC522E800A68C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

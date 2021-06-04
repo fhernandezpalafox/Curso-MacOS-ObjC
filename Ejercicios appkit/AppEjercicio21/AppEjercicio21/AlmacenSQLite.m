@@ -93,7 +93,7 @@
     if (sqlite3_open([appdelegate.databasepath UTF8String], &database)==SQLITE_OK)
     {
         //podriamos seleccionar solo algunos o todos en el orden deseado asi:
-        NSString *sqlStatement  = [NSString stringWithFormat:@"SELECT Persona.id,  Persona.Nombre,  Persona.Domicilio,  Persona.Genero FROM Persona"];
+        NSString *sqlStatement  = [NSString stringWithFormat:@"SELECT Persona.id,  Persona.Nombre,  Persona.Domicilio,  Persona.Genero FROM Persona WHERE Persona.Nombre = '%@'",_txtNombre.stringValue];
         
         //lanzamos la consulta y recorremos los resultados si todo ha salido bien
         if (sqlite3_prepare_v2(database, [sqlStatement UTF8String], -1, &CompiledStatement, NULL)==SQLITE_OK)
